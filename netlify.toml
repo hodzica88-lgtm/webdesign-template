@@ -1,0 +1,27 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/index"
+  to = "/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/impressum"
+  to = "/impressum.html"
+  status = 301
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 301
