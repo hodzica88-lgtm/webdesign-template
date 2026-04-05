@@ -22,10 +22,10 @@
       </a>
 
       <nav class="main-nav" aria-label="Hauptnavigation">
-        <a href="#leistungen">Leistungen</a>
-        <a href="#vorteile">Warum Bauer</a>
-        <a href="#ablauf">Ablauf</a>
-        <a href="#kontakt">Kontakt</a>
+        <a href="index.html" class="active">Start</a>
+        <a href="about.html">Über uns</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
       </nav>
 
       <a href="tel:+49711424301" class="btn btn-primary header-phone">0711 / 42 43 01</a>
@@ -50,7 +50,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="#kontakt" class="btn btn-primary">Jetzt anfragen</a>
+            <a href="contact.html" class="btn btn-primary">Jetzt anfragen</a>
             <a href="#leistungen" class="btn btn-secondary">Leistungen ansehen</a>
           </div>
 
@@ -271,7 +271,7 @@
       </div>
     </section>
 
-    <section id="vorteile" class="advantages-section">
+    <section class="advantages-section">
       <div class="container advantages-grid">
         <div class="section-copy">
           <div class="section-label">Warum Bauer</div>
@@ -293,7 +293,7 @@
       </div>
     </section>
 
-    <section id="ablauf" class="process-section">
+    <section class="process-section">
       <div class="container">
         <div class="section-head">
           <div class="section-label">Ablauf</div>
@@ -338,55 +338,9 @@
         </div>
 
         <div class="cta-actions">
-          <a href="#kontakt" class="btn btn-light">Jetzt Kontakt aufnehmen</a>
+          <a href="contact.html" class="btn btn-light">Jetzt Kontakt aufnehmen</a>
           <a href="tel:+49711424301" class="cta-phone">0711 / 42 43 01</a>
         </div>
-      </div>
-    </section>
-
-    <section id="kontakt" class="contact-section">
-      <div class="container contact-grid">
-        <div class="contact-copy">
-          <div class="section-label">Kontakt</div>
-          <h2>Direkt anfragen</h2>
-          <p>
-            Nutzen Sie das Formular oder rufen Sie direkt an.
-            Wir melden uns zeitnah zurück.
-          </p>
-
-          <div class="contact-points">
-            <div><strong>Bauer Dachdecker & Flaschner</strong></div>
-            <div>Stuttgart & Umgebung</div>
-            <div><a href="tel:+49711424301">0711 / 42 43 01</a></div>
-            <div><a href="mailto:info@bauerstuttgart.de">info@bauerstuttgart.de</a></div>
-          </div>
-        </div>
-
-        <form class="contact-form" name="contact" method="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact" />
-
-          <div class="form-row">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" placeholder="Ihr Name" required />
-          </div>
-
-          <div class="form-row">
-            <label for="phone">Telefon</label>
-            <input id="phone" name="phone" type="tel" placeholder="Ihre Telefonnummer" required />
-          </div>
-
-          <div class="form-row">
-            <label for="email">E-Mail</label>
-            <input id="email" name="email" type="email" placeholder="Ihre E-Mail-Adresse" required />
-          </div>
-
-          <div class="form-row">
-            <label for="message">Nachricht</label>
-            <textarea id="message" name="message" rows="6" placeholder="Worum geht es?" required></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary btn-full">Anfrage senden</button>
-        </form>
       </div>
     </section>
   </main>
